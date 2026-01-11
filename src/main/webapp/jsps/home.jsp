@@ -46,7 +46,7 @@
 <body>
 
 <header>
-    <h1>🚀 Welcome to KK FUNDA DEVOPS AWS Portal 🚀</h1>
+    <h1>🚀 Welcome to SS KANTH DEVOPS AWS Portal 2026🚀</h1>
     <h3>Training | Development | Consulting</h3>
 </header>
 
@@ -91,7 +91,7 @@
 </div>
 
 <footer>
-    <p>© 2024 KK FUNDA Training & Development Center</p>
+    <p>© 2026 SS KANTH Training & Development Center</p>
     <p><small>Powered by <a href="https://google.com/">KK FUNDA</a></small></p>
 </footer>
 
