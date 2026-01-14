@@ -24,8 +24,7 @@
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <sonar.organization>tataelxsiorg</sonar.organization>
         <sonar.projectKey>TataelxsiORG_maven-webapplication-project-kkfunda</sonar.projectKey>
-        <sonar.login>${env.SONAR_TOKEN}</sonar.login>   
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 	</properties>
