@@ -5,7 +5,7 @@
 	<groupId>com.kk</groupId>
 	<artifactId>maven-web-application-kkfunda</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	
 	<name>maven-web-application</name>
 
@@ -30,7 +30,6 @@
 	</properties>
 
 	<dependencies>
-		
 		<dependency>
 			<groupId>org.json</groupId>
 			<artifactId>json</artifactId>
@@ -81,24 +80,21 @@
 			<artifactId>spring-context</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
-		
 				
 	</dependencies>
 	
 	<distributionManagement>
 	        <repository>
+               <id>github</id>
+               <name>GitHub Packages</name>
+               <url>https://maven.pkg.github.com/TataelxsiORG/maven-web-application-kkfunda</url>
+           </repository>
+ <!-- optional snapshot repository if you want snapshots on GitHub -->
+          <snapshotRepository>
               <id>github</id>
-              <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/TataelxsiORG/maven-web-application-kkfunda</url>
-        </repository>
-	
-      <!-- optional snapshot repository if you want snapshots on GitHub -->
-        <snapshotRepository>
-            <id>github</id>
-            <name>GitHub Packages SNAPSHOT</name>
-            <url>https://maven.pkg.github.com/TataelxsiORG/maven-web-application-kkfunda</url>
-        </snapshotRepository>
-	        
+              <name>GitHub Packages SNAPSHOT</name>
+             <url>https://maven.pkg.github.com/TataelxsiORG/maven-web-application-kkfunda</url>
+          </snapshotRepository>
 	</distributionManagement>
 	
 	<build>
