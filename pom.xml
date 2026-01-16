@@ -84,13 +84,14 @@
 	</dependencies>
 	
 <distributionManagement>
-    <repository>
-        <id>github</id>
-        <name>GitHub OWNER Apache Maven Packages</name>
-        <url>https://maven.pkg.github.com/TataelxsiORG/maven-web-application-kkfunda</url>
-    </repository>
+  <repository>
+    <id>github</id>
+    <name>GitHub Packages</name>
+    <url>
+      https://maven.pkg.github.com/TataelxsiORG/maven-webapplication-project-kkfunda
+    </url>
+  </repository>
 </distributionManagement>
-
 	
 	<build>
 		<finalName>maven-web-application</finalName>
